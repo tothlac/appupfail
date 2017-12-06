@@ -1,0 +1,18 @@
+{application, appupfail,
+ [{description, "An OTP application"},
+  {vsn, "git"},
+  {registered, []},
+  {mod, { appupfail_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    parse_trans,
+    statsderl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
